@@ -1,0 +1,24 @@
+node_modules
+.env
+dist
+npm-debug.log*
+.DS_Store
+
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+# Build artifacts (your case)
+build/
+dist/
+

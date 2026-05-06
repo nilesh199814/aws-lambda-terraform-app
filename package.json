@@ -1,0 +1,24 @@
+{
+  "name": "lambda-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "node dist/handler.js",
+    "local": "node dist/invoke.js"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.92",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.1042.0",
+    "dotenv": "^17.4.2"
+  }
+}
